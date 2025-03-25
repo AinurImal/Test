@@ -1,1 +1,139 @@
-test
+test/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Login Container Styling */
+  .login-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Heading Styling */
+  .login-container h2 {
+    margin-bottom: 20px;
+    color: #333333;
+    font-size: 24px;
+  }
+  
+  /* Form Group Styling */
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  /* Label Styling */
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555555;
+    font-size: 14px;
+  }
+  
+  /* Input Field Styling */
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Button Styling */
+  .form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-group button:hover {
+    background-color: #b32700;
+  }
+  
+  /* Error Message Styling */
+  .error-message {
+    margin-top: 10px;
+    color: #e74c3c;
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 500px) {
+    .login-container {
+      padding: 15px;
+    }
+  
+    .login-container h2 {
+      font-size: 20px;
+    }
+  }
+
+ /* ...existing styles... */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  background-color: #765af2;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added box-shadow for 3D effect */
+  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+
+.home-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.dashboard-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard-button:hover {
+  background-color: #0056b3;
+}
